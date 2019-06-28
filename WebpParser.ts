@@ -11,6 +11,7 @@ module chaos {
 
         static init() {
             try {
+                // 检测浏览器是否支持webp
                 this._isSupport = document.createElement('canvas').toDataURL('image/webp').indexOf('data:image/webp') == 0;
                 this.parser();
             } catch (e) { }
