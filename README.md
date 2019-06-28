@@ -8,4 +8,4 @@ egret webp资源加载
 
 webp.js 配套生成webp资源包
 
-WebpParser webp解析器
+WebpParser.ts webp解析器
